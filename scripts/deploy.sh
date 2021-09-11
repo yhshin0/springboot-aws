@@ -8,6 +8,7 @@ echo "> Build 파일 복사"
 cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 echo "> 현재 구동 중인 애플리케이션 pid 확인"
+
 ps -ef | grep java
 ps -ef | grep springboot2
 echo ">>>>> pgrep"
